@@ -27,7 +27,7 @@ const CartScreen = () => {
         <Text> </Text>
         <Image
           source={require('./assets/Logo.png')}
-          style={{ resizeMode: 'contain',
+          style={{ resizeMode: 'contain', marginLeft: 40,
             }}
         />
         <Image source={require('./assets/Search.png')} style={styles.icon}  />
